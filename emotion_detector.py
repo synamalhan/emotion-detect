@@ -80,7 +80,7 @@ if t1.button("Analyze"):
         )
         
         # Show the chart
-        t1.plotly_chart(fig)
+        t1.plotly_chart(fig, use_container_width=True)
 
 
 
