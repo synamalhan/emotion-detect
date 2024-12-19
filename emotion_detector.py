@@ -88,7 +88,7 @@ chat_img = t2.file_uploader("Choose a picture", type=['png', 'jpg'], accept_mult
 # Use pytesseract to extract text
 if t2.button("Analyze "):
     for img in chat_img:
-        with t2.container(border=True):
+        with t2.container():
             image = Image.open(img)
 
             col1,col2 = st.columns([1,2])
@@ -148,3 +148,4 @@ if t2.button("Analyze "):
                 
                 # Show the chart
                 st.plotly_chart(fig)
+            st.divider()
