@@ -10,8 +10,7 @@ import plotly.graph_objects as go
 classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", framework="pt", top_k=None)
 
 # Streamlit App title
-c1,c2 = st.columns([1,2])
-c2.title("Emotion Detector")
+st.markdown("<h1 style='text-align: center;'>Emotion Detector</h1>", unsafe_allow_html=True)
 st.caption("Emotion Detector uses machine learning to analyze text and identify emotions like joy, sadness, and anger. Simply input your text, and the app displays the top emotions with confidence scores, along with a bar chart for visual insights. Built with Python and Hugging Face Transformers, this tool demonstrates the power of AI in understanding sentiment.")
 
 t1,t2 = st.tabs(["Text", "Chats"])
