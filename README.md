@@ -1,4 +1,4 @@
-# Emotion Detector
+# 🎭 Emotion Detector 🎭
 
 ## Overview
 The **Emotion Detector** is a web application that uses machine learning to analyze text and identify emotions. Built with **Python**, **Streamlit**, and **Hugging Face Transformers**, the app classifies emotions such as joy, sadness, anger, and surprise in real-time. It displays the top emotions with their confidence scores as metrics and visualizes the results in a bar chart.
