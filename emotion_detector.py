@@ -93,7 +93,7 @@ if t2.button("Analyze "):
         with t2.container():
             image = Image.open(img)
 
-            col1,col2 = st.columns([1,2])
+            col1,col2 = st.columns([2,1])
             col1.image(image, caption="Uploaded Image")
             text = pytesseract.image_to_string(image)
             model_outputs = classifier(text)
@@ -128,7 +128,7 @@ if t2.button("Analyze "):
 
 
             # Detailed View (Bar chart)
-            with col2.expander("Open Detailed View"):
+            with t2.expander("Open Detailed View"):
                 fig = go.Figure(data=[
                     go.Bar(
                         x=emotion_df['Label'],
