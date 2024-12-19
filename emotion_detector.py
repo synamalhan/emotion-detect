@@ -150,5 +150,5 @@ if t2.button("Analyze "):
                 )
                 
                 # Show the chart
-                st.plotly_chart(fig)
+                st.plotly_chart(fig, use_container_width=True)
             t2.write("----")
