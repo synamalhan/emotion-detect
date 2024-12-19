@@ -3,7 +3,7 @@ Pillow==11.0.0
 pytesseract==0.3.13
 streamlit==1.14.1
 pandas==2.2.3
-numpy==2.0.2
+numpy==1.26.0
 plotly==5.24.1
 altair==4.2.0
 vega-datasets==0.9.0
