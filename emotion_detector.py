@@ -6,7 +6,8 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 st.set_page_config(
-        layout="wide"
+    page_title="Emotion Detector",
+    layout="wide"
     )
 # Initialize classifier
 classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", framework="pt", top_k=None)
