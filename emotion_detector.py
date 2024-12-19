@@ -100,8 +100,9 @@ if t2.button("Analyze "):
 
             # Sort the dataframe by score and get the top 3 emotions
             top_emotions = emotion_df.sort_values(by='Score', ascending=False).head(3)
+            contain = col2.container()
             # Columns for the top 3 emotions
-            c1,c2,c3 = col2.columns(3)
+            c1,c2,c3 = contain.columns(3)
 
             for i, (index, row) in enumerate(top_emotions.iterrows()):
                 # Convert score to percentage with 2 decimal places
