@@ -5,6 +5,10 @@ This application analyzes the sentiment or emotion from either text input or ima
 - **Text Mode**: You can enter plain text, and the app will analyze and provide an emotion reading.
 - **Chat Mode**: You can upload images of chat screenshots, and the app will read the text from the images using Optical Character Recognition (OCR), then provide an emotion reading based on the extracted text.
 
+
+https://github.com/user-attachments/assets/c8e1259d-c3a4-4d30-8ef4-ffdc424a4373
+
+
 ---
 
 ## Features
