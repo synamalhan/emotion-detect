@@ -149,4 +149,4 @@ if t2.button("Analyze "):
                 
                 # Show the chart
                 st.plotly_chart(fig)
-            st.divider()
+            t2.write("----")
