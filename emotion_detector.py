@@ -87,7 +87,7 @@ if t1.button("Analyze"):
 chat_img = t2.file_uploader("Choose a picture", type=['png', 'jpg'], accept_multiple_files=True)
 
 # Use pytesseract to extract text
-if t2.button("Submit"):
+if t2.button("Analyze"):
     for img in chat_img:
         with t2.container(border=True):
             image = Image.open(img)
